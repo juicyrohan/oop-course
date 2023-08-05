@@ -47,6 +47,7 @@ maker = PizzaMaker()
 maker._make_barbeque()
 #maker.__make_pepperoni()
 #print(dir(maker))
+#print(PizzaMaker.__dict__.keys())
 maker._PizzaMaker__make_pepperoni()
 
 
